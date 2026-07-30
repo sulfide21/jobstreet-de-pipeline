@@ -34,3 +34,6 @@ duckdb.exe
 # OS / editor
 .DS_Store
 Thumbs.db
+
+# a separately-cloned reference repo, not part of this project
+data-engineer-handbook/
