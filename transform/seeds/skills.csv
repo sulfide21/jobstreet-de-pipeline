@@ -1,0 +1,51 @@
+skill,phase,pattern
+SQL,1. Foundations,\bsql\b
+Python,1. Foundations,\bpython\b
+Linux / Bash,1. Foundations,\b(linux|bash|shell script|unix)\b
+Git,1. Foundations,\b(git|github|gitlab|version control)\b
+Excel,1. Foundations,\b(excel|spreadsheet)\b
+PostgreSQL,2. Databases & Data Modeling,\b(postgre?s|postgresql)\b
+MySQL,2. Databases & Data Modeling,\bmysql\b
+SQL Server,2. Databases & Data Modeling,\b(sql server|ms sql|t-sql|tsql)\b
+Oracle,2. Databases & Data Modeling,\boracle\b
+MongoDB,2. Databases & Data Modeling,\bmongo ?db\b
+NoSQL,2. Databases & Data Modeling,\bnosql\b
+Redis,2. Databases & Data Modeling,\bredis\b
+Elasticsearch,2. Databases & Data Modeling,\b(elastic ?search|elk)\b
+Data Modeling,2. Databases & Data Modeling,\b(data model|dimensional model|star schema|normali[sz])
+Data Warehouse,3. Data Warehousing,\b(data ?warehous|dwh|datamart|data mart)
+Snowflake,3. Data Warehousing,\bsnowflake\b
+BigQuery,3. Data Warehousing,\b(big ?query)\b
+Redshift,3. Data Warehousing,\bredshift\b
+Synapse,3. Data Warehousing,\bsynapse\b
+Databricks,3. Data Warehousing,\bdatabricks\b
+ETL / ELT,4. ETL / ELT & Orchestration,\b(etl|elt)\b
+Data Pipeline,4. ETL / ELT & Orchestration,\bdata ?pipeline
+Airflow,4. ETL / ELT & Orchestration,\bairflow\b
+dbt,4. ETL / ELT & Orchestration,\bdbt\b
+SSIS,4. ETL / ELT & Orchestration,\bssis\b
+Talend,4. ETL / ELT & Orchestration,\btalend\b
+Informatica,4. ETL / ELT & Orchestration,\binformatica\b
+Pentaho,4. ETL / ELT & Orchestration,\bpentaho\b
+NiFi,4. ETL / ELT & Orchestration,\bnifi\b
+Spark,5. Big Data Processing,\b(spark|pyspark)\b
+Hadoop,5. Big Data Processing,\bhadoop\b
+Hive,5. Big Data Processing,\bhive\b
+Flink,5. Big Data Processing,\bflink\b
+Scala,5. Big Data Processing,\bscala\b
+Java,5. Big Data Processing,\bjava\b
+Kafka,6. Streaming,\bkafka\b
+Kinesis,6. Streaming,\bkinesis\b
+Pub/Sub,6. Streaming,\bpub/?sub\b
+RabbitMQ,6. Streaming,\brabbit ?mq\b
+AWS,7. Cloud Platforms,\b(aws|amazon web services)\b
+Azure,7. Cloud Platforms,\bazure\b
+GCP,7. Cloud Platforms,\b(gcp|google cloud)\b
+Docker,8. DevOps & Deployment,\bdocker\b
+Kubernetes,8. DevOps & Deployment,\b(kubernetes|k8s)\b
+CI/CD,8. DevOps & Deployment,\b(ci/cd|cicd|jenkins|continuous integration)\b
+Terraform,8. DevOps & Deployment,\bterraform\b
+Power BI,9. BI & Visualization,\bpower ?bi\b
+Tableau,9. BI & Visualization,\btableau\b
+Looker,9. BI & Visualization,\blooker\b
+Metabase,9. BI & Visualization,\bmetabase\b

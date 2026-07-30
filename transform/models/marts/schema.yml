@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: dim_company
+    columns:
+      - name: company_id
+        tests: [unique, not_null]
+      - name: company_name
+        tests: [not_null]
+
+  - name: dim_location
+    columns:
+      - name: location_id
+        tests: [unique, not_null]
+
+  - name: fact_job_posting
+    columns:
+      - name: job_id
+        tests: [not_null]
+      - name: company_id
+        tests: [not_null]
+      - name: scrape_date
+        tests: [not_null]

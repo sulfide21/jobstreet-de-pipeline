@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1000001",
+    "title": "Data Engineer",
+    "company": "Contoh Teknologi",
+    "salary": "Rp 8.000.000 – Rp 12.000.000 per month",
+    "location": "Jakarta Raya",
+    "work_type": "Full time",
+    "teaser": "Build and maintain ETL pipelines using Airflow and dbt.",
+    "bullet_points": "",
+    "listing_date": "2024-01-01T08:00:00Z"
+  },
+  {
+    "id": "1000002",
+    "title": "Analytics Engineer",
+    "company": "Data Nusantara",
+    "salary": "Rp 11,000,000 – Rp 16,000,000 per month",
+    "location": "Bandung, Jawa Barat",
+    "work_type": "Full time",
+    "teaser": "Model data with dbt and SQL for the analytics team.",
+    "bullet_points": "",
+    "listing_date": "2024-01-01T08:00:00Z"
+  },
+  {
+    "id": "1000003",
+    "title": "Junior Data Analyst",
+    "company": "Contoh Teknologi",
+    "salary": "",
+    "location": "Surabaya, Jawa Timur",
+    "work_type": "Full time",
+    "teaser": "Support reporting using Python and SQL.",
+    "bullet_points": "",
+    "listing_date": "2024-01-01T08:00:00Z"
+  },
+  {
+    "id": "1000004",
+    "title": "Part-time Data Entry",
+    "company": "Warung Data",
+    "salary": "Rp 500,000 per hour",
+    "location": "Jakarta Raya",
+    "work_type": "Full time",
+    "teaser": "Hourly data entry role.",
+    "bullet_points": "",
+    "listing_date": "2024-01-01T08:00:00Z"
+  },
+  {
+    "id": "1000005",
+    "title": "Remote Data Engineer",
+    "company": "Global Remote Co",
+    "salary": "$15,000 – $18,000 per month",
+    "location": "Jakarta Raya",
+    "work_type": "Full time",
+    "teaser": "Remote role paid in USD, Airflow and Kafka experience needed.",
+    "bullet_points": "",
+    "listing_date": "2024-01-01T08:00:00Z"
+  },
+  {
+    "id": "1000006",
+    "title": "Data Engineer (duplicate page 1)",
+    "company": "Contoh Teknologi",
+    "salary": "Rp 9.000.000 – Rp 13.000.000 per month",
+    "location": "Jakarta Raya",
+    "work_type": "Full time",
+    "teaser": "Same posting appearing twice in one scrape (pagination overlap).",
+    "bullet_points": "",
+    "listing_date": "2024-01-01T09:00:00Z"
+  },
+  {
+    "id": "1000006",
+    "title": "Data Engineer (duplicate page 2)",
+    "company": "Contoh Teknologi",
+    "salary": "Rp 9.000.000 – Rp 13.000.000 per month",
+    "location": "Jakarta Raya",
+    "work_type": "Full time",
+    "teaser": "Same posting appearing twice in one scrape (pagination overlap).",
+    "bullet_points": "",
+    "listing_date": "2024-01-01T08:30:00Z"
+  }
+]

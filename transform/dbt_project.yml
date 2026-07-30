@@ -1,0 +1,10 @@
+name: jobstreet
+version: "1.0"
+profile: jobstreet
+
+models:
+  jobstreet:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

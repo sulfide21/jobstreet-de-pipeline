@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: jobs
+        columns:
+          - name: id
+            tests:
+              - not_null
+          - name: scrape_date
+            tests:
+              - not_null

@@ -1,0 +1,33 @@
+name: dbt build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  dbt-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Lint (syntax-check the Python)
+        run: python -m py_compile pipeline/*.py streaming/*.py jobstreet_scraper.py
+
+      - name: Load a synthetic sample into a throwaway warehouse
+        run: |
+          mkdir -p data_lake/raw/jobstreet/date=2024-01-01
+          cp ci/sample_jobs.json data_lake/raw/jobstreet/date=2024-01-01/jobs.json
+          python pipeline/load_raw.py 2024-01-01
+
+      - name: dbt build (seeds + models + tests)
+        working-directory: transform
+        run: dbt build --profiles-dir .

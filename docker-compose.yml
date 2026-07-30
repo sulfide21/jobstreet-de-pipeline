@@ -1,0 +1,3 @@
+include:
+  - airflow/docker-compose.yaml
+  - streaming/docker-compose.yml
